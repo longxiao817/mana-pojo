@@ -1,5 +1,7 @@
 package com.atguigu.mgt.manager.bean;
 
+import java.util.List;
+
 public class TPermission {
     private Integer id;
 
@@ -10,6 +12,16 @@ public class TPermission {
     private String icon;
 
     private String url;
+    
+    private List<TPermission> childs;
+    
+    public List<TPermission> getChilds() {
+        return childs;
+    }
+
+    public void setChilds(List<TPermission> childs) {
+        this.childs = childs;
+    }
 
     public Integer getId() {
         return id;

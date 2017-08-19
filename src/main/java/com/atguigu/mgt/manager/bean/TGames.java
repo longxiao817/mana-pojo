@@ -17,7 +17,7 @@ public class TGames {
 
     private String downloadurl;
 
-    private String update;
+    private String gameupdate;
 
     private Integer size;
 
@@ -28,6 +28,8 @@ public class TGames {
     private String url;
 
     private String imgurls;
+
+    private String tab;
 
     public Integer getId() {
         return id;
@@ -93,12 +95,12 @@ public class TGames {
         this.downloadurl = downloadurl == null ? null : downloadurl.trim();
     }
 
-    public String getUpdate() {
-        return update;
+    public String getGameupdate() {
+        return gameupdate;
     }
 
-    public void setUpdate(String update) {
-        this.update = update == null ? null : update.trim();
+    public void setGameupdate(String gameupdate) {
+        this.gameupdate = gameupdate == null ? null : gameupdate.trim();
     }
 
     public Integer getSize() {
@@ -140,4 +142,22 @@ public class TGames {
     public void setImgurls(String imgurls) {
         this.imgurls = imgurls == null ? null : imgurls.trim();
     }
+
+    public String getTab() {
+        return tab;
+    }
+
+    public void setTab(String tab) {
+        this.tab = tab == null ? null : tab.trim();
+    }
+
+    @Override
+    public String toString() {
+        return "TGames [id=" + id + ", name=" + name + ", type=" + type + ", downloadnum=" + downloadnum + ", score="
+                + score + ", imgurl=" + imgurl + ", introduce=" + introduce + ", downloadurl=" + downloadurl
+                + ", gameupdate=" + gameupdate + ", size=" + size + ", version=" + version + ", status=" + status
+                + ", url=" + url + ", imgurls=" + imgurls + ", tab=" + tab + "]";
+    }
+
+    
 }

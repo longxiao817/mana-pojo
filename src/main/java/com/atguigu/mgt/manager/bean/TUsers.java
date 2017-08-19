@@ -21,13 +21,19 @@ public class TUsers {
 
     private Integer certification;
 
-    private Date createTime;
+    private String createTime;
 
     private String realName;
 
     private String idCard;
 
     private String userType;
+
+    private String certUrls;
+
+    private String email;
+
+    private String userImage;
 
     public Integer getUserId() {
         return userId;
@@ -101,12 +107,12 @@ public class TUsers {
         this.certification = certification;
     }
 
-    public Date getCreateTime() {
+    public String getCreateTime() {
         return createTime;
     }
 
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
+    public void setCreateTime(String createTime) {
+        this.createTime = createTime == null ? null : createTime.trim();
     }
 
     public String getRealName() {
@@ -131,5 +137,29 @@ public class TUsers {
 
     public void setUserType(String userType) {
         this.userType = userType == null ? null : userType.trim();
+    }
+
+    public String getCertUrls() {
+        return certUrls;
+    }
+
+    public void setCertUrls(String certUrls) {
+        this.certUrls = certUrls == null ? null : certUrls.trim();
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email == null ? null : email.trim();
+    }
+
+    public String getUserImage() {
+        return userImage;
+    }
+
+    public void setUserImage(String userImage) {
+        this.userImage = userImage == null ? null : userImage.trim();
     }
 }

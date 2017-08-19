@@ -30,4 +30,15 @@ public class TUserRole {
     public void setRoleid(Integer roleid) {
         this.roleid = roleid;
     }
+    
+    public TUserRole() {
+    }
+
+    public TUserRole(Integer userid, Integer roleid) {
+        super();
+        this.userid = userid;
+        this.roleid = roleid;
+    }
+    
+    
 }
