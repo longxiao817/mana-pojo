@@ -634,73 +634,73 @@ public class TGamesExample {
             return (Criteria) this;
         }
 
-        public Criteria andUpdateIsNull() {
-            addCriterion("update is null");
+        public Criteria andGameupdateIsNull() {
+            addCriterion("gameupdate is null");
             return (Criteria) this;
         }
 
-        public Criteria andUpdateIsNotNull() {
-            addCriterion("update is not null");
+        public Criteria andGameupdateIsNotNull() {
+            addCriterion("gameupdate is not null");
             return (Criteria) this;
         }
 
-        public Criteria andUpdateEqualTo(String value) {
-            addCriterion("update =", value, "update");
+        public Criteria andGameupdateEqualTo(String value) {
+            addCriterion("gameupdate =", value, "gameupdate");
             return (Criteria) this;
         }
 
-        public Criteria andUpdateNotEqualTo(String value) {
-            addCriterion("update <>", value, "update");
+        public Criteria andGameupdateNotEqualTo(String value) {
+            addCriterion("gameupdate <>", value, "gameupdate");
             return (Criteria) this;
         }
 
-        public Criteria andUpdateGreaterThan(String value) {
-            addCriterion("update >", value, "update");
+        public Criteria andGameupdateGreaterThan(String value) {
+            addCriterion("gameupdate >", value, "gameupdate");
             return (Criteria) this;
         }
 
-        public Criteria andUpdateGreaterThanOrEqualTo(String value) {
-            addCriterion("update >=", value, "update");
+        public Criteria andGameupdateGreaterThanOrEqualTo(String value) {
+            addCriterion("gameupdate >=", value, "gameupdate");
             return (Criteria) this;
         }
 
-        public Criteria andUpdateLessThan(String value) {
-            addCriterion("update <", value, "update");
+        public Criteria andGameupdateLessThan(String value) {
+            addCriterion("gameupdate <", value, "gameupdate");
             return (Criteria) this;
         }
 
-        public Criteria andUpdateLessThanOrEqualTo(String value) {
-            addCriterion("update <=", value, "update");
+        public Criteria andGameupdateLessThanOrEqualTo(String value) {
+            addCriterion("gameupdate <=", value, "gameupdate");
             return (Criteria) this;
         }
 
-        public Criteria andUpdateLike(String value) {
-            addCriterion("update like", value, "update");
+        public Criteria andGameupdateLike(String value) {
+            addCriterion("gameupdate like", value, "gameupdate");
             return (Criteria) this;
         }
 
-        public Criteria andUpdateNotLike(String value) {
-            addCriterion("update not like", value, "update");
+        public Criteria andGameupdateNotLike(String value) {
+            addCriterion("gameupdate not like", value, "gameupdate");
             return (Criteria) this;
         }
 
-        public Criteria andUpdateIn(List<String> values) {
-            addCriterion("update in", values, "update");
+        public Criteria andGameupdateIn(List<String> values) {
+            addCriterion("gameupdate in", values, "gameupdate");
             return (Criteria) this;
         }
 
-        public Criteria andUpdateNotIn(List<String> values) {
-            addCriterion("update not in", values, "update");
+        public Criteria andGameupdateNotIn(List<String> values) {
+            addCriterion("gameupdate not in", values, "gameupdate");
             return (Criteria) this;
         }
 
-        public Criteria andUpdateBetween(String value1, String value2) {
-            addCriterion("update between", value1, value2, "update");
+        public Criteria andGameupdateBetween(String value1, String value2) {
+            addCriterion("gameupdate between", value1, value2, "gameupdate");
             return (Criteria) this;
         }
 
-        public Criteria andUpdateNotBetween(String value1, String value2) {
-            addCriterion("update not between", value1, value2, "update");
+        public Criteria andGameupdateNotBetween(String value1, String value2) {
+            addCriterion("gameupdate not between", value1, value2, "gameupdate");
             return (Criteria) this;
         }
 
@@ -1031,6 +1031,76 @@ public class TGamesExample {
 
         public Criteria andImgurlsNotBetween(String value1, String value2) {
             addCriterion("imgUrls not between", value1, value2, "imgurls");
+            return (Criteria) this;
+        }
+
+        public Criteria andTabIsNull() {
+            addCriterion("tab is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andTabIsNotNull() {
+            addCriterion("tab is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andTabEqualTo(String value) {
+            addCriterion("tab =", value, "tab");
+            return (Criteria) this;
+        }
+
+        public Criteria andTabNotEqualTo(String value) {
+            addCriterion("tab <>", value, "tab");
+            return (Criteria) this;
+        }
+
+        public Criteria andTabGreaterThan(String value) {
+            addCriterion("tab >", value, "tab");
+            return (Criteria) this;
+        }
+
+        public Criteria andTabGreaterThanOrEqualTo(String value) {
+            addCriterion("tab >=", value, "tab");
+            return (Criteria) this;
+        }
+
+        public Criteria andTabLessThan(String value) {
+            addCriterion("tab <", value, "tab");
+            return (Criteria) this;
+        }
+
+        public Criteria andTabLessThanOrEqualTo(String value) {
+            addCriterion("tab <=", value, "tab");
+            return (Criteria) this;
+        }
+
+        public Criteria andTabLike(String value) {
+            addCriterion("tab like", value, "tab");
+            return (Criteria) this;
+        }
+
+        public Criteria andTabNotLike(String value) {
+            addCriterion("tab not like", value, "tab");
+            return (Criteria) this;
+        }
+
+        public Criteria andTabIn(List<String> values) {
+            addCriterion("tab in", values, "tab");
+            return (Criteria) this;
+        }
+
+        public Criteria andTabNotIn(List<String> values) {
+            addCriterion("tab not in", values, "tab");
+            return (Criteria) this;
+        }
+
+        public Criteria andTabBetween(String value1, String value2) {
+            addCriterion("tab between", value1, value2, "tab");
+            return (Criteria) this;
+        }
+
+        public Criteria andTabNotBetween(String value1, String value2) {
+            addCriterion("tab not between", value1, value2, "tab");
             return (Criteria) this;
         }
     }

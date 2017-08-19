@@ -3,6 +3,12 @@ package com.atguigu.mgt.manager.bean;
 import java.util.Date;
 
 public class TReply {
+    @Override
+    public String toString() {
+        return "TReply [id=" + id + ", comentarid=" + comentarid + ", content=" + content + ", time=" + time
+                + ", status=" + status + "]";
+    }
+
     private Integer id;
 
     private Integer comentarid;
